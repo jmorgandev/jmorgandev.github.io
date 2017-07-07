@@ -11,10 +11,10 @@
     font-weight: 500;
 }
 
-.intro div {
+.intro div.scroller {
     margin-top: 0.4em;
     margin-bottom: 0.5em;
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 
 .nice-line {
@@ -27,21 +27,12 @@
     background: black;
 }
 
-.scroller {
+.scroll-list {
     display: inline-block;
-    position: relative;
-    padding: 0;
+    width: 4em;
     margin: 0;
-}
-
-.scroller ul {
-    display: inline-block;
-    text-align: right;
+    border: 0;
+    padding: 0;
+    text-align: left;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.scroller li {
-    
 }
