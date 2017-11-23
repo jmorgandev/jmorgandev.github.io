@@ -18,11 +18,11 @@ header.main h2 {
 	font-weight: 200;
 }
 
-.nice-line {
-    display: block;
-    margin: auto;
-    border: none;
-    width: 50em;
-    height: 1px;
-    background: #777777;
+.margin {
+	margin-bottom: 45px;
+}
+
+.nopad {
+	margin: 0px;
+	padding: 0px;
 }
